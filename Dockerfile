@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.3
 
 ENV CONFD_VERSION 0.11.0
 ADD https://github.com/kelseyhightower/confd/releases/download/v${CONFD_VERSION}/confd-${CONFD_VERSION}-linux-amd64 /
